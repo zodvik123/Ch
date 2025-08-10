@@ -15,7 +15,7 @@ bot = Client(
     "BOT",
     api_id='24820228', # Replace with your actual API ID     
     api_hash='5ae29104667a2d4e01e4f82ae5f28668', # Replace with your actual API Hash
-    bot_token="7939685234:AAEQkhe191nzbeqRSlVvHj0rxXV7B9lMgGo", # Replace with your actual Bot Token
+    bot_token="77098912960", # Replace with your actual Bot Token
     plugins=dict(root="plugins"),
     workers=16  # Increase worker threads for better concurrency
 )
@@ -91,3 +91,4 @@ if __name__ == "__main__":
         print(f"Unhandled exception: {e}")
         traceback.print_exc()
         sys.exit(1)
+
